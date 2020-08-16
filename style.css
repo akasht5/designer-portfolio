@@ -139,7 +139,6 @@ body{
 .hamburger-menu .menu-wrapper #toggler:checked ~ .lines:after{
     opacity:0;
 }
-
 .hamburger-menu .menu-wrapper #toggler:checked ~ .lines:before{ 
     background-color:white;
     transform:rotate(90deg);
@@ -188,12 +187,10 @@ header .menu ul li a{
     text-decoration:none;
 }
 
-
 .about-info{
     max-width:500px;
     margin:auto;
     margin-top:100px;
-    
 }
 .about-info h2,p{
     margin:0;
@@ -218,12 +215,9 @@ header .menu ul li a{
     display:flex;
     align-items: center;
     justify-content:space-evenly;
-    //background:lightgoldenrodyellow;
     padding-top:100px;
-    
 }
 .experience-wrapper .experience{
-    //background:lightblue;
     margin-right:-30px;
 }
 .experience-wrapper .experience h2{
@@ -250,7 +244,6 @@ header .menu ul li a{
 }
 .experience-wrapper .clients h2{
     margin:0;
-    
     font-size:60px;
     font-family: "Montserrat",sans-serif;
     font-weight: 800;
@@ -297,7 +290,6 @@ header .menu ul li a{
     height:100%;
     position:absolute;
     border-radius:10px;
-
 }
 .project-wrapper:hover .overlay{
     background-color:rgba(0, 0, 0, 0.5);
@@ -306,9 +298,6 @@ header .menu ul li a{
 .project-wrapper:hover .content{
     opacity:1;
 }
-
-
-
 
 @media(max-width:700px){
     #brand img{
@@ -328,7 +317,6 @@ header .menu ul li a{
     header .menu ul{
         font-size:40px;
         margin-left:-50px;
-        
     }
     .hamburger-menu .menu-wrapper .lines{
         width:30px;
