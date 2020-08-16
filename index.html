@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Gadson</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=IBM+Plex+Mono:wght@400;500&family=Lalezar&family=PT+Mono&family=Press+Start+2P&family=Rubik+Mono+One&family=Sigmar+One&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Gothic+A1:wght@400;900&family=Heebo:wght@800;900&family=Nanum+Gothic+Coding&family=Prata&family=Ramabhadra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+      <header id="header">
+        <span id="brand"><img src="/photos/bg-logo.png"></span>
+        <div class="hamburger-menu">
+          <div class="menu-wrapper">
+            <input type="checkbox" id="toggler" onchange="toggleMenu(this)" onclick="rotate()">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="hero-section">
+        <h1>Hello.</h1>
+        <p>I'm Ben Gadson, creative designer, photographer and newbie frontend developer.</p>
+      </div>
+      <div class="portfolio-section">
+        <h1>Projects</h1>
+        <div class="projects">
+          <div class="project-wrapper">
+            <img src="photos/img1.jpg">            
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img10.jpg">
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img3.jpg">            
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img9.jpg">
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img6.jpg">            
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img11.jpg">            
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+          <div class="project-wrapper">
+            <img src="photos/img10.jpg">            
+            <a href="#">
+              <div class="overlay">
+              <div class="content">
+                <p>Lorem ipsum dolor.</p>
+              </div>
+              </div>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="footer"><p>Ben Gadson &copy; 2020. All rights reserved.</p></div>
+    <script>
+      let menu = document.querySelector('.menu');
+
+      function toggleMenu(value){
+        if(value.checked){
+        menu.style.visibility = 'visible';
+        }else{
+        menu.style.visibility = 'hidden';
+        }
+      }
+
+    </script>
+</body>
+</html>

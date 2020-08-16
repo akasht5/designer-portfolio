@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Gadson</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=IBM+Plex+Mono:wght@400;500&family=Lalezar&family=PT+Mono&family=Press+Start+2P&family=Rubik+Mono+One&family=Sigmar+One&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Gothic+A1:wght@400;900&family=Heebo:wght@800;900&family=Nanum+Gothic+Coding&family=Prata&family=Ramabhadra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+      <header id="header">
+        <span id="brand"><img src="photos/bg-logo.png"></span>
+        <div class="hamburger-menu">
+          <div class="menu-wrapper">
+            <input type="checkbox" id="toggler" onchange="toggleMenu(this)" onclick="rotate()">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+            </ul>
+        </div>
+      </header>
+      <div class="experience-wrapper">
+          <div class="experience">
+            <h2>Experience</h2>
+            <div class="designations">
+                <div class="item">
+                    <p class="date">2015-present</p>
+                    <p class="address">Grey Midwest - Cincinnati, OH</p>
+                    <p class="designation">Associate Designer - Associate Art Director</p>
+                </div>
+            <div class="item">
+                <p class="date">2015-2018</p>
+                <p class="address">Possible Worldwide - Cincinnati, OH</p>
+                <p class="designation">Associate Designer - Associate Art Director</p>
+            </div>
+            <div class="item">
+                <p class="date">2012-2015</p>
+                <p class="address">LEAP - Cincinnati, OH</p>
+                <p class="designation">Senior Art Director - Associate Creative Director</p>
+            </div>
+            <div class="item">
+                <p class="date">2006-2007</p>
+                <p class="address">Lippincott - New York, NY</p>
+                <p class="designation">Design Intern</p>
+            </div>
+            <div class="item">
+                <p class="date">2005-2006</p>
+                <p class="address">Warner Brothers Online - Los Angeles, CA</p>
+                <p class="designation">Design Intern</p>
+            </div>
+        </div>
+          </div>
+          <div class="clients">
+              <h2>Clients</h2>
+              <ul>
+                  <li>Gillette</li>
+                  <li>Fruit of the Loom</li>
+                  <li>Kroger</li>
+                  <li>Cintas</li>
+                  <li>Nature Made</li>
+                  <li>Brillo</li>
+                  <li>Carnival Cruise Lines</li>
+                  <li>Pampers</li>
+                  <li>Timberland</li>
+                  <li>Pringles</li>
+                  <li>Febreze</li>
+                  <li>U.S. Bank</li>
+                  <li>Pearle Vision</li>
+              </ul>
+          </div>
+      </div>
+    </div>
+    <div class="footer"><p>Ben Gadson &copy; 2020. All rights reserved.</p></div>
+    <script>
+      let menu = document.querySelector('.menu');
+
+      function toggleMenu(value){
+        if(value.checked){
+        menu.style.visibility = 'visible';
+        }else{
+        menu.style.visibility = 'hidden';
+        }
+      }
+    </script>
+</body>
+</html>

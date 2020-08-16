@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Gadson</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=IBM+Plex+Mono:wght@400;500&family=Lalezar&family=PT+Mono&family=Press+Start+2P&family=Rubik+Mono+One&family=Sigmar+One&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Gothic+A1:wght@400;900&family=Heebo:wght@800;900&family=Nanum+Gothic+Coding&family=Prata&family=Ramabhadra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+      <header id="header">
+        <span id="brand"><img src="photos/bg-logo.png"></span>
+        <div class="hamburger-menu">
+          <div class="menu-wrapper">
+            <input type="checkbox" id="toggler" onchange="toggleMenu(this)" onclick="rotate()">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+            </ul>
+        </div>
+      </header>
+      
+        <div class="about-info">
+            <h2 class="about-title">Hi,I'm Ben.</h2>
+            <p class="description">Currently I am Designer at XYZ in Cincinnati, OH. With 5+ years of digital agency experience, I have had the opportunity to work in Chicago, Los Angeles, New York and Cincinnati, on projects for fortune 500 companies to startups. I push my team to never be satisfied, always look for the “WOW” idea and love their work. I believe successful brands are built on relationships and hold the same true for agencies and clients.</p>
+            <div class="contact-info">
+                <p>Email : bengadson10@gmail.com</p>
+                <p>LinkedIn Profile</p>
+            </div>
+        
+    </div>
+    </div>
+    <div class="footer" style="position:fixed;bottom:0;z-index:1"><p>Ben Gadson &copy; 2020. All rights reserved.</p></div>
+    <script>
+      let menu = document.querySelector('.menu');
+
+      function toggleMenu(value){
+        if(value.checked){
+        menu.style.visibility = 'visible';
+        }else{
+        menu.style.visibility = 'hidden';
+        }
+      }
+    </script>
+</body>
+</html>
